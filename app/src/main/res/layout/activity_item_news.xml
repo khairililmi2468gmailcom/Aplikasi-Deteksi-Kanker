@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginBottom="12dp"
+    android:layout_gravity="center"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="161dp"
+            android:layout_height="75dp"
+            android:paddingEnd="16dp"
+            android:text="@string/titleNews"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvLink"
+            android:layout_width="96dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="81dp"
+            android:layout_marginEnd="56dp"
+            android:onClick="openNewsUrl"
+            android:text="@string/link"
+            android:textColor="@color/green"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvTitle"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <ImageView
+            android:id="@+id/imgNews"
+            android:layout_width="111dp"
+            android:layout_height="101dp"
+            android:layout_marginStart="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.031"
+            tools:src="@tools:sample/avatars" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
