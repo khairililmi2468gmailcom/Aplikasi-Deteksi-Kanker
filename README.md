@@ -18,25 +18,6 @@ Before running this app, you need active or remove comment and to add your API [
 //        buildConfigField("String", "NEWS_API_KEY", "\"YOUR_API\"")
 //        buildConfigField("String", "NEWS_API_URL", "\"https://newsapi.org/v2/\"")
 ```
-### Demo Apps
-<p align="center">
-    <img src="demo/main.gif"
-        alt="Demo Apps1"    
-        style="margin-right: 8px;"    
-        width="230" />
-    <img src="demo/search.gif"
-        alt="Demo Apps2"    
-        style="margin-right: 8px;"    
-        width="230" />
-    <img src="demo/favorite.gif"
-        alt="Demo Apps2"    
-        style="margin-right: 8px;"    
-        width="230" />
-    <img src="demo/lightmode.gif"
-        alt="Demo Apps2"    
-        style="margin-right: 8px;"    
-        width="230" />
-</p>
 
 ### Submission CheckList
 - Menggunakan Starter Project
