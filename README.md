@@ -27,8 +27,8 @@ Before running this app, you need active or remove comment and to add your API [
 - Menampilkan Hasil Prediksi di Halaman ResultActivity
   
 #### Reviewer Rating 
-<img src="bangkitstar.png"/>
-:star: :star: :star: :star: :star:
+<img src="bangkitstar.png"/><br>
+:star: :star: :star: :star: :star:<br>
 ### Dependencies :
 - [Lifecycle & Livedata](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
